@@ -1,0 +1,197 @@
+
+
+/* default styles here for older browsers. 
+       I tend to go for a 600px - 960px width max but using percentages
+    */
+    @media only screen and (min-width: 960px) {
+        /* styles for browsers larger than 960px; */
+    }
+    @media only screen and (min-width: 1440px) {
+        /* styles for browsers larger than 1440px; */
+    }
+    @media only screen and (min-width: 2000px) {
+        /* for sumo sized (mac) screens */
+    }
+    @media only screen and (max-device-width: 480px) {
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+       	.section-bg {
+		width: 100%;
+		height: 65%;
+	    }
+	    .absolute-text {
+	    	margin-top:20px;
+	    	margin-bottom:20px;
+	    	position: relative;
+	    	transform: rotate(0deg);
+	    	top: 0;
+	    	left: 0;
+	    }
+	    .contact-form{
+	    	padding: 0;
+	    }
+	    .appointment-text + ul + a {
+	    	display: inline-block;
+	    	margin-bottom: 14px;
+	    }
+    }
+    @media only screen and (device-width: 768px) {
+       /* default iPad screens */
+       .section-bg {
+		width: 100%;
+		height: 65%;
+	    }
+	    .appointment-text + ul + a {
+	    	display: inline-block;
+	    	margin-bottom: 14px;
+	    }
+    }
+    /* different techniques for iPad screening */
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+      	/* .section-bg {
+		//width: 100%;
+		//height: 65%;
+	    } */
+	    .appointment-text + ul + a {
+	    	display: inline-block;
+	    	margin-bottom: 14px;
+	    }
+    }
+
+	/*******************************
+	All Responsive Code
+*******************************/
+@media (max-width: 575.98px) {
+	.slider-area .owl-dots {
+		bottom: 20px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width: 768px) {
+	header .container {
+		min-width: 768px;
+	}
+}
+
+@media only screen and (max-width:787.98px) {
+	header .is-sticky .sticky-area {
+		background: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		margin-top: 0;
+		padding: 0;
+	}
+	.single-slide-item {
+		padding-top:16%;
+	}
+	.new{
+		margin-top: 5%;
+	}
+    .single-slide-item .content p{
+        padding-left:2%;
+		padding-right: 2%;
+    }
+    .active .single-slide-item .content p {
+        padding-left:2%;
+		padding-right: 2%;
+    }
+
+	.header-top,.slider-area,.third-service,.service-padding,.service-padding1,.single-slide-item-1,.six-sec,.section-padding8,.single-slide-item-2,.ninth,.tenth,.eleventh,.navbar2, .container{
+		padding:0;
+		
+	}
+	.single-slide-item .content{
+		padding-left: 4%;
+	}
+	.single-slide-item-9{
+		padding-left:34px;
+		padding-right:34px;
+	}
+	.all{
+		width: 100%;
+	}
+    .ist{
+		margin-bottom:30px;
+		width: 100%;
+	}
+	.send{
+		width:100%;
+	}
+	.allIsoheader{
+		padding-left: 4%;
+	}
+.secondPortion4{
+	padding-left:14%;
+	padding-right: 0px;
+	margin-bottom: 20px;
+}
+.img-flui{
+	width: 100%;
+}
+.fist{
+	padding-left: 7%;
+	padding-bottom: 7%;
+	margin-bottom: 5%;
+}
+	.video-section{
+		padding-bottom: 5%;
+		padding-left: 6%;
+	}
+.content5{
+	width: 100%;
+	padding-left: 16%;
+}
+.content7{
+	width: 100%;
+	padding-left:7%;
+	padding-right: 8%;
+}
+	.factory-text{
+		width:100%;
+		padding:0;
+	}
+	.factory-text h4{
+		position:absolute;
+		z-index:999999;
+		left:5%; 
+	}
+
+	.top-text h2{
+		position:absolute;
+		z-index:1000000;
+		left:5%;
+		transform:translateY(19px);
+	}
+	.block{
+		width: 77%;
+		margin-left: 14%;
+	}
+	#lname,#fname,#nname,#car,#text{
+		width: 100%;
+		margin-left: 1%;
+		margin-top:1%;
+	}
+	#car {
+		height: 30px;
+		margin-top: 10px;
+	}
+	#lname1 {
+		height: 42px;
+		font-size: 20px;
+		width: 43%;
+	}
+	#text{
+		height:140px;
+		margin-top: 0;
+	}
+	form{
+		padding:0;
+	}
+	.factory-text2 h4{
+		margin-bottom: 0px;
+	}
+}
